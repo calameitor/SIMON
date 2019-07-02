@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>juego SIMON</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+
+<body>
+    <h1>SIMON GAME</h1>
+    <p id="salida">NIVEL 1</p>
+    <div id="aparato">
+        <div id="verde" class="color"></div>
+        <div id="rojo" class="color"></div>
+        <div id="amarillo" class="color"></div>
+        <div id="azul" class="color"></div>
+    </div>
+    <button id="empezar">EMPEZAR</button>
+    
+    <div id="caja">
+	<ul class="botones">
+		<li>
+			<img style="opacity:0.2" id="botonRojo" alt="" src="img/botonRojo.png">
+		</li>
+		<li>
+			<img style="opacity:0.2" id="botonVerde" alt="" src="img/botonVerde.png">
+		</li>
+	</ul>
+	<ul class="botones">
+		<li>
+			<img style="opacity:0.2" id="botonAzul" alt="" src="img/botonAzul.png">
+		</li>
+		<li>
+			<img style="opacity:0.2" id="botonAmarillo" alt="" src="img/botonAmarillo.png">
+		</li>
+	</ul>
+	<div class="controles">
+			<input type="button" value="Empezar" id="start">
+	</div>
+</div>
+<audio id="audioBotonRojo" src="audio/audioBotonRojo.mp3"></audio>
+<audio id="audioBotonVerde" src="audio/audioBotonVerde.mp3"></audio>
+<audio id="audioBotonAzul" src="audio/audioBotonAzul.mp3"></audio>
+<audio id="audioBotonAmarillo" src="audio/audioBotonAmarillo.mp3"></audio>
+<script type="text/javascript" src="js/botones.js"></script>
+
+  </body>
+</html>  
+           
